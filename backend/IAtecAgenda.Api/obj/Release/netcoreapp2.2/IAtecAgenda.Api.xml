@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IAtecAgenda.Api</name>
+    </assembly>
+    <members>
+        <member name="M:IAtecAgenda.Api.Controllers.EventoController.GetAll(System.Nullable{System.Boolean},System.Nullable{System.Int32})">
+            <summary>
+            Endpoint que possibilita a consulta de todas as Eventos cadastradas.
+            </summary>
+            <param name="hasTemplate">Parâmetro opcional que identifica a dependência de template.</param>
+            <param name="operacaoId">Parâmetro opcional que identifica a operação.</param>
+            <returns>Retorna a coleção de operações da plataforma.</returns>
+        </member>
+        <member name="M:IAtecAgenda.Api.Controllers.EventoController.ListAll(IAtecAgenda.Domain.Contracts.Requests.Evento.ListAllEventoRequest)">
+            <summary>
+            Endpoint que possibilita a consulta de Eventos cadastradas.
+            </summary>
+            <param name="request">Objeto que contém os atributos para consulta.</param>
+            <returns>Retorna a coleção de Eventos  no sistema.</returns>
+        </member>
+        <member name="M:IAtecAgenda.Api.Controllers.EventoController.Get(System.Int32)">
+            <summary>
+            Operação que possibilita a consulta de uma operação.
+            </summary>
+            <param name="EventoId">Código identificador da operação.</param>
+            <returns>Retorna o objeto contendo as definição de uma operação.</returns>
+        </member>
+        <member name="M:IAtecAgenda.Api.Controllers.EventoController.Put(System.Int32,IAtecAgenda.Domain.Contracts.Requests.Evento.EventoRequest)">
+            <summary>
+            Operação utilizada para criação de uma nova Evento
+            </summary>
+            <param name="EventoId"></param>
+            <param name="request">Objeto que contém as definições de dados</param>
+        </member>
+        <member name="M:IAtecAgenda.Api.Controllers.EventoController.Post(IAtecAgenda.Domain.Contracts.Requests.Evento.EventoRequest)">
+            <summary>
+            Operação utilizada para criação de uma nova Evento
+            </summary>
+            <param name="request">Objeto que contém as definições de dados</param>
+        </member>
+        <member name="M:IAtecAgenda.Api.Controllers.UsuarioController.Get(System.String)">
+            <summary>
+            Retorna uma entidade
+            </summary>
+            <param name="userId">Código do Usuário</param>
+            <returns>Retorno da Entidade</returns>
+        </member>
+        <member name="M:IAtecAgenda.Api.Controllers.UsuarioController.FindAll(IAtecAgenda.Domain.Contracts.Requests.Usuario.FindAllUsuarioRequest)">
+            <summary>
+            Retorna uma lista da entidade
+            </summary>
+            <param name="request">Objeto com os parametros para retorno da entidade</param>
+            <returns>Retorna lista de Usuários</returns>
+        </member>
+        <member name="M:IAtecAgenda.Api.Controllers.UsuarioController.Update(IAtecAgenda.Domain.Contracts.Requests.Usuario.UpdateUsuarioRequest)">
+            <summary>
+            Atualização do registro de status
+            </summary>
+            <param name="request"></param>
+            <returns>Entidade com os dados atualizados</returns>
+        </member>
+        <member name="M:IAtecAgenda.Api.Controllers.UsuarioController.FillBUs(IAtecAgenda.Domain.Entities.Usuario)">
+            <summary>
+            Método que carrega as BUs associadas ao usuário
+            </summary>
+            <param name="entity">Instância do usuário pesquisado</param>
+            <returns>Retorna a coleção de BUs associados ao usuário</returns>
+        </member>
+        <member name="M:IAtecAgenda.Api.Controllers.UsuarioController.SearchAll(IAtecAgenda.Domain.Contracts.Requests.Usuario.FindAllUsuarioRequest)">
+            <summary>
+            Colocar este método em um serviço
+            </summary>
+            <param name="request">Objeto com filtro das pesquisas</param>
+            <returns></returns>
+        </member>
+        <member name="M:IAtecAgenda.Api.Controllers.UsuarioController.Find(System.String)">
+            <summary>
+            Método que retorna a instância de um usuário
+            </summary>
+            <param name="id">Código identificador do usuário</param>
+            <returns>Retorna a instância do usuário localizado</returns>
+        </member>
+        <member name="M:IAtecAgenda.Api.Controllers.UsuarioController.Validate(IAtecAgenda.Domain.Contracts.Requests.Usuario.UpdateUsuarioRequest,IAtecAgenda.Domain.Entities.Usuario)">
+            <summary>
+            Validaçao de usuário
+            </summary>
+            <param name="request">Objeto enviado</param>
+            <param name="existing">Registro que contém no banco</param>
+            <returns></returns>
+        </member>
+        <member name="T:IAtecAgenda.Api.Extensions.IPrincipalExtensions">
+            <summary>
+            Objeto com funções principais
+            </summary>
+        </member>
+        <member name="M:IAtecAgenda.Api.Extensions.IPrincipalExtensions.GetUserId(System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            GetUserId
+            </summary>
+            <param name="principal">principal</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:IAtecAgenda.Api.Extensions.IPrincipalExtensions.GetUserName(System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            GetUserName
+            </summary>
+            <param name="principal">principal</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:IAtecAgenda.Api.Extensions.IPrincipalExtensions.GetEmail(System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            GetEmail
+            </summary>
+            <param name="principal">principal</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:IAtecAgenda.Api.Extensions.IPrincipalExtensions.GetBusinessUnits(System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            Retorna os códigos de unidades de negócio associados ao usuário
+            </summary>
+            <param name="principal">Instâcia de autenticação do usuário logado</param>
+            <returns>Coleção de códigos de unidades de negócio</returns>
+        </member>
+        <member name="M:IAtecAgenda.Api.Extensions.IPrincipalExtensions.GetRoles(System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            GetRoles
+            </summary>
+            <param name="principal">principal</param>
+            <returns>IEnumerable string</returns>
+        </member>
+        <member name="M:IAtecAgenda.Api.Extensions.IPrincipalExtensions.IsInRole(System.Security.Claims.ClaimsPrincipal,System.String[])">
+            <summary>
+            IsInRole
+            </summary>
+            <param name="principal">principal</param>
+            <param name="roles">roles</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:IAtecAgenda.Api.Infrastructure.BaseController.#ctor(IAtecAgenda.Domain.Interfaces.Business.IUnitOfWork,Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Caching.Memory.IMemoryCache)">
+            <summary>
+            Construtor da classe
+            </summary>
+            <param name="unitOfWork">Instâcia do objeto UnitOfWork</param>
+            <param name="logger">Instância do objeto Logger</param>
+            <param name="memoryCache">Instância do gerenciador de cache em memoria</param>
+        </member>
+        <member name="T:IAtecAgenda.Api.Infrastructure.IdentityServerConfig">
+            <summary>
+            Objeto de configuração de infraestrutura da identidade
+            </summary>
+        </member>
+        <member name="M:IAtecAgenda.Api.Infrastructure.IdentityServerConfig.GetApiResources">
+            <summary>
+            GetApiResources
+            </summary>
+            <returns>IEnumerable ApiResource</returns>
+        </member>
+        <member name="M:IAtecAgenda.Api.Infrastructure.IdentityServerConfig.GetClients">
+            <summary>
+            GetClients
+            </summary>
+            <returns>IEnumerable Client</returns>
+        </member>
+    </members>
+</doc>

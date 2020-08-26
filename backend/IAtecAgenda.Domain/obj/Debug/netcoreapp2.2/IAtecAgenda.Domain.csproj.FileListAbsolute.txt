@@ -1,0 +1,8 @@
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Domain\bin\Debug\netcoreapp2.2\IAtecAgenda.Domain.deps.json
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Domain\bin\Debug\netcoreapp2.2\IAtecAgenda.Domain.dll
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Domain\bin\Debug\netcoreapp2.2\IAtecAgenda.Domain.pdb
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Domain\obj\Debug\netcoreapp2.2\IAtecAgenda.Domain.AssemblyInfoInputs.cache
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Domain\obj\Debug\netcoreapp2.2\IAtecAgenda.Domain.AssemblyInfo.cs
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Domain\obj\Debug\netcoreapp2.2\IAtecAgenda.Domain.csproj.CoreCompileInputs.cache
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Domain\obj\Debug\netcoreapp2.2\IAtecAgenda.Domain.dll
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Domain\obj\Debug\netcoreapp2.2\IAtecAgenda.Domain.pdb

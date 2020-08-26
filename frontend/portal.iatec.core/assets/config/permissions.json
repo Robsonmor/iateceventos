@@ -1,0 +1,34 @@
+[
+    {"route": "minha-conta", "roles": ["Administrador", "Analista_II"], "children": [
+        {"route": "central-downloads", "roles": ["Administrador", "Analista_II"]}
+    ]},
+    {"route": "operacao", "roles": ["Administrador", "Analista_II", "Analise", "TriagemManual","Suporte","Cliente"], "children": [
+        {"route": "analise", "roles": ["Administrador", "Analista_II", "Analise", "TriagemManual"]},
+        {"route": "abrir-chamado", "roles": ["Administrador", "Analista_II", "Analise", "TriagemManual"]},
+        {"route": "exibir-imagens", "roles": ["Administrador", "Analista_II", "Analise", "TriagemManual"]},
+        {"route": "pesquisa", "roles": ["Administrador", "Analista_II", "Analise", "TriagemManual"]},
+        {"route": "detalhes-analise", "roles": ["Administrador", "Analista_II", "Analise", "TriagemManual"]},
+        {"route": "visao-gerencial", "roles": ["Administrador", "Analista_II", "Analise","Suporte","Cliente"]},
+        {"route": "gerenciador-relatorio", "roles": ["Administrador", "Analista_II", "Analise"]},
+        {"route": "relatorio-geral-analitico", "roles": ["Administrador", "Analista_II"]}
+    ]},
+    {"route": "configuracao", "roles": ["Administrador","Analista_II"], "children": [
+        {"route": "operacao-grupos", "roles": ["Administrador"]},
+        {"route": "operacoes", "roles": ["Administrador","Analista_II"]},
+        {"route": "atividades", "roles": ["Administrador","Analista_II"]},
+        {"route": "lista-templates", "roles": ["Administrador"]},
+        {"route": "motivos-rejeicao", "roles": ["Administrador","Analista_II"]},
+        {"route": "add-motivos-rejeicao", "roles": ["Administrador","Analista_II"]},
+        {"route": "motivos-contingencia", "roles": ["Administrador","Analista_II"]},
+        {"route": "add-motivos-contingencia", "roles": ["Administrador","Analista_II"]},        
+        {"route": "template", "roles": ["Administrador"]}
+    ]},
+    {"route": "administracao", "roles": ["Administrador", "Analista_II"], "children": [
+        {"route": "usuarios", "roles": ["Administrador", "Analista_II"]},
+        {"route": "alerta-atividade", "roles": ["Administrador", "Analista_II"]},
+        {"route": "priorizar-sla", "roles": ["Administrador", "Analista_II"]}
+    ]},
+    {"route": "importacao", "roles": ["Administrador", "Analista_II", "Analise"], "children": [
+        {"route": "central-upload", "roles": ["Administrador", "Analista_II", "Analise"]}
+    ]}
+]

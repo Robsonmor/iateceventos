@@ -1,0 +1,15 @@
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Core\bin\Debug\netcoreapp2.2\IAtecAgenda.Core.deps.json
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Core\bin\Debug\netcoreapp2.2\IAtecAgenda.Core.runtimeconfig.json
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Core\bin\Debug\netcoreapp2.2\IAtecAgenda.Core.runtimeconfig.dev.json
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Core\bin\Debug\netcoreapp2.2\IAtecAgenda.Core.dll
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Core\bin\Debug\netcoreapp2.2\IAtecAgenda.Core.pdb
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Core\bin\Debug\netcoreapp2.2\IAtecAgenda.Domain.dll
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Core\bin\Debug\netcoreapp2.2\IAtecAgenda.Domain.pdb
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Core\obj\Debug\netcoreapp2.2\IAtecAgenda.Core.csprojAssemblyReference.cache
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Core\obj\Debug\netcoreapp2.2\IAtecAgenda.Core.AssemblyInfoInputs.cache
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Core\obj\Debug\netcoreapp2.2\IAtecAgenda.Core.AssemblyInfo.cs
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Core\obj\Debug\netcoreapp2.2\IAtecAgenda.Core.csproj.CoreCompileInputs.cache
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Core\obj\Debug\netcoreapp2.2\IAtecAgenda.Core.csproj.CopyComplete
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Core\obj\Debug\netcoreapp2.2\IAtecAgenda.Core.dll
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Core\obj\Debug\netcoreapp2.2\IAtecAgenda.Core.pdb
+D:\Projetos\agendas\IAtecAgenda\backend\IAtecAgenda.Core\obj\Debug\netcoreapp2.2\IAtecAgenda.Core.genruntimeconfig.cache

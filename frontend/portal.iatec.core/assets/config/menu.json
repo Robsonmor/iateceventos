@@ -1,0 +1,13 @@
+[
+	{ "name": "Configurações", "id": "5", "icon": "settings", "route": "configuracao", 
+        "children" : [
+			{"name": "Operação Grupo", "id":"?", "icon": "all_inbox", "route": "operacao-grupos", "children" :[]},
+			{"name": "Operação", "id":"?", "icon": "inbox", "route": "operacoes", "children" :[]}
+	   ]
+    },
+	{ "name": "Administração ", "id": "7", "icon": "how_to_reg", "route": "administracao",  
+		"children" : [
+			{"name": "Gerenciar Usuários", "id":"?", "icon": "group", "route":"usuarios", "children" :[]}
+		]
+	}
+]
